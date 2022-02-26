@@ -23,7 +23,7 @@ As you may see, Polo does not have a Direct Messaging feature. But, there is an 
 Coming soon.... (if anybody can achieve this, send me a link to the online instance on heroku and pictures to prove it can work on my Discord. TheSecretGunner#0001)
 
 ### Self-hosted (local instance, UNTESTED)
-1. Download the [source code](https:/github.com/trisn0w/polo/releases) on the latest release
+1. Download the [source code](https://github.com/TriSn0w/polo/archive/refs/heads/main.zip)
 2. unzip it and run the main.py file
 3. enter `0.0.0.0:8081` in your browser. Also make sure that other users are connected to the same wifi as you for it to work
 
