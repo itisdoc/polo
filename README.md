@@ -1,5 +1,8 @@
 # Polo
 Polo is a python-based chat application made by TheSecretGunner(aka Trisn0w) for people who want to chat to others, without having to go through alot of setup.
+
+![Polo Chat Image](https://i.ibb.co/x1bkH4J/image.png)
+
 ## Installation
 I am working on the installer, and the app itself. Stay tuned!
 
