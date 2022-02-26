@@ -3,13 +3,21 @@ Polo is a python-based chat application made by TheSecretGunner(aka Trisn0w) for
 ## Installation
 I am working on the installer, and the app itself. Stay tuned!
 
-## Private Server
-How to make a private instance of polo:
+## Making a 1-1 chat or Group DM
+As you may see, Polo does not have a Direct Messaging feature. But, there is an alternative, named...
+### Instances
+###### Instances are a way to make your own Polo chats, AND you can even change things about polo, like it's stylesheets, and functionality. Note, in order to make an instance, you will need to know about some of the things below.
+-------------
+
+# Ways
 
 ### Replit (online instance)
 1. Fork the [source code](https://replit.com/@triscord/polo) on Replit
 2. Press run
 3. Where it shows a url on top of the preview is the link to your private Polo instance.
+
+### Heroku (online instance)
+Coming soon.... (if anybody can achieve this, send me a link to the online instance on heroku and pictures to prove it can work on my Discord. TheSecretGunner#0001)
 
 ### Self-hosted (local instance, UNTESTED)
 1. Download the [source code](https:/github.com/trisn0w/polo/releases) on the latest release
