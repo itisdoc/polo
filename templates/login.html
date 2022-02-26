@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="static/style.css"/>
+        <title>Polo | Login</title>
+    </head>
+    <body>
+			<style>
+				body {
+					text-align: center;
+				}
+				form {
+					margin: 20px auto;
+				}
+				#username {
+					height: 30px;
+					font-size: 20px;
+					border-radius: 3px;
+					background-color: white;
+				}
+				#sub {
+					display: block;
+				 	padding: 8px;
+					border-radius: 4px;
+					border: 3px solid #1e90ff;
+					margin: 10px auto;
+					background-color: rgba(0,0,0,0);
+					color: white;
+					font-size: 17px;
+				}
+			</style>
+        <form action='/login' method='POST'>
+            <input type='text' name='username' id='username' placeholder='Darth Vader'/>
+            <input type='submit' id='sub' value='Start Chatting!'/>
+        </form>
+    </body>
+</html>
+
