@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polo | Chat</title>
+    <link href="static/style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body id="body">
+        <div id="main">
+            <div id="topBar"> 
+                <h4 style='padding-left: 20px'>{{username}}</h4>
+                <div class="status online" id='status'></div>  
+              <a href="/logout"><button style="border-radius: 12px; border: 0; background-color: red; color: white;">Logout</button></a>
+            </div>
+            <div id="content">
+                <div class="container">
+                    <div id="messages">                            
+                    </div>
+                    <div class='bumper'></div>
+                    <div id="input">
+                        <input placeholder="Send a message..." id='message'>
+                        </input>
+
+                        <button onclick='sendMessage()'>
+                            <ion-icon name="send"></ion-icon>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.socket.io/4.4.0/socket.io.min.js" integrity="sha384-1fOn6VtTq3PWwfsOrk45LnYcGosJwzMHv+Xh/Jx5303FVOXzEnw0EpLv30mtjmlj" crossorigin="anonymous"></script>
+    <script src='static/chat.js'></script>
+  </body>
+</html>
+
