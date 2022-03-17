@@ -2,7 +2,7 @@ import os
 from flask import Flask, session, render_template, redirect, request
 from flask_login import LoginManager, UserMixin, login_required, login_user, logout_user, current_user
 from flask_socketio import SocketIO
-secret = os.environ['secret']
+secret = 'yourSecretHere'
 
 app = Flask(__name__)
 
