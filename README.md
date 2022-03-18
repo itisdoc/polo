@@ -3,6 +3,8 @@ Polo is a python-based chat application made by TheSecretGunner(aka Trisn0w) for
 
 ![Polo Chat Image](https://i.ibb.co/x1bkH4J/image.png)
 
+[Demo](https://poloapp.triscord.repl.co) - [Replit](https://replit.com/@triscord/poloapp) - [Heroku](https://poloapp.herokuapp.com)
+
 ## Installation
 I am working on the installer, and the app itself. Stay tuned!
 
